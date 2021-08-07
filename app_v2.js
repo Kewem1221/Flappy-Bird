@@ -212,7 +212,7 @@ class App {
     const startPage = document.createElement("div");
     startPage.classList.add("start");
     this.container.appendChild(startPage);
-    startPage.innerHTML = `<p>Press SPACE to jump.</p>
+    startPage.innerHTML = `<p>Press SPACE or tap the screen to jump.</p>
       <button class='btn'>${btnText}</button>`;
 
     startPage.querySelector(".btn").addEventListener("click", () => {
