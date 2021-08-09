@@ -55,7 +55,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  column-gap: 0.3rem;
+  column-gap: 0.6rem;
   z-index: 1;
   background-color: honeydew;
   border-radius: 0.5rem;
