@@ -235,3 +235,5 @@ class App {
 
 const app = new App();
 app.run();
+
+window.onselectstart = () => false
